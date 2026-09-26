@@ -4,7 +4,6 @@ import { Save, Package, AlertCircle } from 'lucide-react';
 import AdminLayout from '../components/AdminLayout';
 import { requireAdmin } from '../services/auth';
 import { fetchAllPlans, updatePlan } from '../services/admin';
-import type { Plan } from '../types';
 import './Plans.css';
 
 interface EditablePlan {

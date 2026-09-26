@@ -1,4 +1,4 @@
-import { ReactNode, useEffect } from 'react';
+import type { ReactNode } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard,
